@@ -19,15 +19,15 @@
 ### Артефакты (Прикладные воплощения)
 | Артефакт | Суть |
 | :--- | :--- |
-| [IPIS](https://github.com/snowdimon/ipis) | Межпланетная система идентификации — эталонный кейс |
-| Трилогия Duranki | Нарративный интерфейс к принципам ([Книга I](link), [Книга II](link)) |
+| Межпланетная система идентификации | Кейс - [IPIS](https://github.com/snowdimon/ipis) |
+| Вселенная Duranki | Нарративный интерфейс [Книги RU](https://author.today/work/series/54656) |
 
 ---
 
 ## 📖 Публикации
 - **Хабр:** *Принцип Абсурд к Истине* (готовится)
-- **Author.Today:** *Duranki. Книга I* (ссылка)
-- **Author.Today:** *Duranki. Книга II* (ссылка)
+- **Author.Today:** [Книги RU](https://author.today/work/series/54656)
+- **Royal Road:** [Книги EN]( )
 
 ---
 
