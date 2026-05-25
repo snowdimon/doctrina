@@ -27,7 +27,7 @@
 ## 📖 Публикации
 - **Хабр:** *Принцип Абсурд к Истине* (готовится)
 - **Author.Today:** [Книги RU](https://author.today/work/series/54656)
-- **Royal Road:** [Книги EN]( )
+- **Royal Road:** [Книги EN](https://www.royalroad.com/fiction/165905/ipisduranki-universe)
 
 ---
 
