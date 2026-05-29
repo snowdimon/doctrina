@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctrina — Учение о системном проектировании</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 80px 24px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Геометрический элемент — круг */
+        .geometry {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 48px;
+        }
+
+        .circle {
+            width: 12px;
+            height: 12px;
+            border: 2px solid #1a1a1a;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .circle.filled {
+            background-color: #1a1a1a;
+        }
+
+        .hexagon {
+            width: 14px;
+            height: 8px;
+            border: 2px solid #1a1a1a;
+            display: inline-block;
+            position: relative;
+            margin-top: 2px;
+        }
+
+        .hexagon::before,
+        .hexagon::after {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 2px;
+            background-color: #1a1a1a;
+            left: 0;
+        }
+
+        .hexagon::before {
+            top: -3px;
+        }
+
+        .hexagon::after {
+            bottom: -3px;
+        }
+
+        /* Заголовок */
+        h1 {
+            font-family: 'IBM Plex Mono', 'Courier New', monospace;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            margin-bottom: 16px;
+        }
+
+        .subtitle {
+            font-family: 'IBM Plex Mono', 'Courier New', monospace;
+            font-size: 14px;
+            color: #666666;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-bottom: 48px;
+        }
+
+        /* Блок с максимой */
+        .maxim {
+            border-left: 2px solid #1a1a1a;
+            padding-left: 20px;
+            margin-bottom: 48px;
+        }
+
+        .maxim p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #333333;
+        }
+
+        /* Кнопки */
+        .buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            font-family: 'IBM Plex Mono', 'Courier New', monospace;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            border: 2px solid #1a1a1a;
+        }
+
+        .btn-primary:hover {
+            background-color: #ffffff;
+            color: #1a1a1a;
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: #1a1a1a;
+            border: 2px solid #1a1a1a;
+        }
+
+        .btn-secondary:hover {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+
+        /* Разделитель */
+        .divider {
+            width: 100%;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 48px 0;
+        }
+
+        /* Текст внизу */
+        .note {
+            font-size: 13px;
+            color: #999999;
+            line-height: 1.6;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            .maxim p {
+                font-size: 16px;
+            }
+
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Геометрический элемент: круг и шестигранник -->
+        <div class="geometry">
+            <span class="circle filled"></span>
+            <span class="circle"></span>
+            <span class="hexagon"></span>
+        </div>
+
+        <!-- Заголовок -->
+        <h1>Doctrina</h1>
+        <p class="subtitle">Учение о системном проектировании</p>
+
+        <!-- Максима -->
+        <div class="maxim">
+            <p>Non sedebis sub tecto quod aedificas.<br>Incipe tamen.</p>
+        </div>
+
+        <!-- Подзаголовок -->
+        <p style="margin-bottom: 48px; font-size: 16px; color: #555;">
+            Ты не посидишь под сводами, которые строишь.<br>
+            И всё же начни.
+        </p>
+
+        <!-- Кнопки -->
+        <div class="buttons">
+            <a href="#" class="btn btn-primary">Скачать руководство (PDF)</a>
+            <a href="https://github.com/snowdimon/doctrina" class="btn btn-secondary">GitHub →</a>
+        </div>
+
+        <!-- Разделитель -->
+        <div class="divider"></div>
+
+        <!-- Примечание -->
+        <p class="note">
+            Шесть принципов для тех, кто строит будущее за пределом собственной жизни.<br>
+            Автор — Дмитрий Снежков (Snowdimon). Все труды открыты под лицензией CC BY-SA 4.0.
+        </p>
+
+    </div>
+</body>
+</html>
