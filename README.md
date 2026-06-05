@@ -10,7 +10,7 @@
 
 | Труд | Суть |
 | :--- | :--- |
-| [Principium](https://github.com/snowdimon/principium) | Начало. Как решиться строить за пределом жизни |
+| [Первый принцип. Principium](https://github.com/snowdimon/principium) | Начало. Как решиться строить за пределом жизни |
 | [Анти-Икар](https://github.com/snowdimon/anti-icarus) | Протокол жизнеспособности визионера |
 | [Абсурд к Истине](https://github.com/snowdimon/absurdum-ad-veritatem) | Как проверить систему на порочность |
 | [Теневой Соавтор](https://github.com/snowdimon/shadow-coauthor) | Как передать дух системы |
