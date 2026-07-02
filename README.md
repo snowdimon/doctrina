@@ -1,4 +1,4 @@
-# Doctrine of systems design — Учение о системном проектировании
+# Учение о системном проектировании
 
 **Манифест:** Строим системы, которые выдерживают предельное воплощение, и растим Архитекторов, способных выжить в аккустической тени.
 
@@ -26,9 +26,10 @@
 ---
 
 ## 📖 Публикации
-- **Хабр:** [IPIS](https://habr.com/p/1029688); [Принцип Абсурд к Истине](готовится_ссылка)
-- **Author.Today:** [Книги RU](https://author.today/work/series/54656)
-- **Royal Road:** [Книги EN](https://www.royalroad.com/fiction/165905/ipisduranki-universe)
+- **Хабр:** [IPIS](https://habr.com/p/1029688)
+- **Author.Today:** [Вселенная Дуранки RU](https://author.today/work/series/54656)
+- **Литрес:** [Не посидишь](https://www.litres.ru/book/dmitriy-snezhkov/ne-posidish-74122139/)
+- **Royal Road:** [Вселенная Дуранки EN](https://www.royalroad.com/fiction/165905/ipisduranki-universe)
 
 ---
 
